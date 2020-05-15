@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    font-family: 'Ubuntu', sans-serif;
+    width: 80%;
+    margin: auto; 
+    background-color: black;
+    
+  
+}
+
+
+/* головне меню */
+
+
+.accordion {
+  background-color:  #fed136;
+  color: #444;
+  cursor: pointer;
+  padding: 30px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  transition: 0.4s;
+   
+  
+}
+
+.active, .accordion:hover {
+  background-color:dimgray;
+    color: white;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-out;
+}
+
+h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.name{
+    color: gray;
+}
+
+
+
+
+
+
+
+/* вертикальне внутрішнє меню */
+
+
+
+* {box-sizing: border-box}
+
+
+.tab {
+  float: left;
+  
+  background-color: dimgray;
+  width: 30%;
+  height: 400px;
+}
+
+
+.tab button {
+  display: block;
+  background-color: dimgray;
+  
+  color: #444;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.2s;
+  font-size: 20px;
+  
+}
+
+
+.tab button:hover {
+  background-color: #ccc;
+    color: white;
+}
+
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  width: 70%;
+  border-left: none;
+  height: 400px;
+}
+
+
